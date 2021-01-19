@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Михаил Филиппов](https://up.htmlacademy.ru/htmlcss/30/user/1589451).
-* Наставник: `Неизвестно`.
+* Наставник: [Илья Приходкин](https://htmlacademy.ru/profile/prikhodkin).
 
 ---
 
