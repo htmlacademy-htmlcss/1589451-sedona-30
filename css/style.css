@@ -1,0 +1,164 @@
+/* Variables */
+
+:root {
+  --basic-white: #ffffff;
+  --basic-black: #000000;
+  --basic-brown: #766357;
+  --basic-grey: #eeeeee;
+  --basic-light-grey: #f2f2f2;
+  --basic-light-blue: #81B3D2;
+  --basic-extra-dark: #333333;
+}
+
+/* Global */
+
+.page-body {
+  min-width: 960px;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: var(--basic-extra-dark);
+  text-transform: uppercase;
+  background-color: var(--basic-white);
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Main Navigation */
+
+.main-navigation {
+  font-size: 14px;
+  line-height: 26px;
+  color: var(--basic-black);
+  background-color: transparent;
+}
+
+.main-navigation-wrapper {
+  background-color: var(--basic-white);
+}
+
+.site-navigation {
+  list-style: none;
+  font-weight: 700;
+}
+
+.site-navigation-current a:not([href]) {
+  background-color: var(--basic-white);
+}
+
+/* Site Navigation */
+
+.site-navigation a {
+  color: var(--basic-black);
+}
+
+.site-navigation a:hover {
+  color: var(--basic-light-blue);
+}
+
+.site-navigation a:focus {
+  color: var(--basic-black);
+  opacity: 30%;
+}
+
+/* Features */
+
+ .features-list {
+  list-style: none;
+}
+
+.feature-item-img,
+.feature-with-icon,
+.feature-no-icon,
+.search-info,
+.features p {
+  text-align: center;
+}
+
+.feature-item-img h2,
+.feature-with-icon h2,
+.feature-no-icon h2,
+.features .h2 {
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 700;
+}
+
+.feature-item-img {
+  color: var(--basic-white);
+  background-color: var(--basic-light-blue);
+}
+
+.feature-no-icon {
+  background-color: var(--basic-grey);
+}
+
+/* Form */
+
+.search .heading {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.info-item label {
+  font-weight: 700;
+}
+
+.info-item input {
+  font: inherit;
+  color: var(--basic-black);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* Main Footer */
+
+.main-footer {
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+  opacity: 90%;
+}
+
+.footer-contacts .footer-hashtag,
+.footer-contacts .footer-phone {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.footer-social {
+  text-align: center;
+}
+
+.footer-social ul {
+  list-style: none;
+}
+
+.footer-copyright a {
+  /*width: 115px;
+  height: 41px;*/
+  background-repeat: no-repeat;
+  /*background-image: url("../img/logo-htmlacademy-footer.svg");
+  background-position: 0 0;
+  position: relative;*/
+}
+
+.footer-copyright a:hover {
+  /*width: 115px;
+  height: 41px;*/
+  background-image: url("../img/logo-htmlacademy-footer-hover.svg");
+  background-position: 0 0;
+  /*position: relative;*/
+  background-repeat: no-repeat;
+}

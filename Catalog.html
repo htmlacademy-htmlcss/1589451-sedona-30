@@ -1,14 +1,28 @@
-<html lang="ru">
+<!DOCTYPE html>
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="img/180.png">
+    <link rel="manifest" href="manifest.webmanifest">
+
+    <link href="normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <!--<p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/-->
-  <body>
-    <header>
-      <a href="index.html"><img src="https://via.placeholder.com/150x100" alt="Логотип сайта Sedona"></a>
-      <nav>
-        <ul>
+  <body class="page-body">
+
+    <header class="main-header">
+      <a class="main-header-logo" href="index.html">
+        <img src="img/logo_Sedona.svg" width="138" height="70" alt="Логотип сайта Sedona">
+      </a>
+      <nav class="main-navigation">
+        <ul class="site-navigation">
           <li><a href="#">Информация</a></li>
           <li><a href="#">Фото и видео</a></li>
           <li><a href="#">Карта штата</a></li>
@@ -17,8 +31,9 @@
       </nav>
     </header>
 
-    <main>
-      <section>
+    <main class="container">
+
+      <section class="">
         <form method="get" action="">
           <fieldset>
             <legend>Инфраструктура:</legend>
@@ -37,6 +52,7 @@
               </li>
             </ul>
           </fieldset>
+
           <fieldset>
             <legend>Тип жилья:</legend>
             <ul>
@@ -54,9 +70,11 @@
               </li>
             </ul>
           </fieldset>
+
           <fieldset>
             <legend>Стоимость в сутки (Р):</legend>
-
+              ?
+            <input type="button" value="Показать">
           </fieldset>
         </form>
       </section>
@@ -144,32 +162,37 @@
           </li>
         </ul>
       </section>
+
     </main>
 
-    <footer>
-      <section>
-        <p>#visitsedona</p>
-        <p>Тел: +7(495) 666-01-66</p>
+    <footer class="main-footer">
+
+      <section class="footer-contacts">
+        <p class="footer-hashtag">#visitsedona</p>
+        <p class="footer-phone">Тел: +7(495) 666-01-66</p>
       </section>
 
-      <section>
+      <section class="footer-social">
         <ul>
           <li>
-            <a href="#">Twitter</a>
+            <a class="social-button" href="#">Twitter</a>
           </li>
           <li>
-            <a href="#">Facebook</a>
+            <a class="social-button" href="#">Facebook</a>
           </li>
           <li>
-            <a href="#">Youtube</a>
+            <a class="social-button" href="#">Youtube</a>
           </li>
         </ul>
       </section>
 
-      <p>
+      <p class="footer-copyright">
         Website by
-        <a href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a>
+        <a class="link-copyright" href="https://htmlacademy.ru/intensive/htmlcss">
+          <img src="img/logo-htmlacademy-footer.svg" alt="html Академия">
+        </a>
       </p>
+
     </footer>
   </body>
 </html>
