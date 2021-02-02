@@ -67,24 +67,28 @@ img {
 }
 
 .site-navigation a:focus {
-  color: #000000; opacity: 30%;
+  color: var(--basic-black);
+  opacity: 30%;
 }
 
 /* Features */
 
-.features-list {
+ .features-list {
   list-style: none;
 }
 
 .feature-item-img,
 .feature-with-icon,
-.feature-no-icon {
+.feature-no-icon,
+.search-info,
+.features p {
   text-align: center;
 }
 
 .feature-item-img h2,
 .feature-with-icon h2,
-.feature-no-icon h2 {
+.feature-no-icon h2,
+.features .h2 {
   font-size: 21px;
   line-height: 21px;
   font-weight: 700;
@@ -101,6 +105,12 @@ img {
 
 /* Form */
 
+.search .heading {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+
 .info-item label {
   font-weight: 700;
 }
@@ -116,7 +126,15 @@ img {
 
 .main-footer {
   color: var(--basic-black);
-  background-color: #ffffff; opacity: 90%;
+  background-color: var(--basic-white);
+  opacity: 90%;
+}
+
+.footer-contacts .footer-hashtag,
+.footer-contacts .footer-phone {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
 }
 
 .footer-social {
