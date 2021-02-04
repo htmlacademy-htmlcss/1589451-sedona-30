@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
-    
+
     <link rel="icon" href="favicon.ico">
     <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="img/180.png">
@@ -33,9 +33,9 @@
 
     <main class="container">
 
-      <section class="">
+      <section class="parameters">
         <form method="get" action="">
-          <fieldset>
+          <fieldset class="infrastructure">
             <legend>Инфраструктура:</legend>
             <ul>
               <li>
@@ -53,7 +53,7 @@
             </ul>
           </fieldset>
 
-          <fieldset>
+          <fieldset class="housing-type">
             <legend>Тип жилья:</legend>
             <ul>
               <li>
@@ -71,20 +71,20 @@
             </ul>
           </fieldset>
 
-          <fieldset>
+          <fieldset class="price">
             <legend>Стоимость в сутки (Р):</legend>
-              ?
+
             <input type="button" value="Показать">
           </fieldset>
         </form>
       </section>
 
-      <section>
+      <section class="search-results">
         <h2>Найдено: 3</h2>
-        <p>Сортировка:</p>
-        <ul>
-          <li>
-            <a>По цене</a>
+        <p class="sorting">Сортировка:</p>
+        <ul class="sort-types">
+          <li class="current">
+            По цене
           </li>
           <li>
             <a href="#">По типу</a>
@@ -93,20 +93,20 @@
             <a href="#">По рейтингу</a>
           </li>
         </ul>
-          <a href="#">
-            <img src="img/ic-sort-up.svg" width="16">
-          </a>
-          <a href="#">
-            <img src="img/ic-sort-down.svg" width="16">
-          </a>
-        <ul>
+        <a href="#">
+          <img src="img/ic-sort-up.svg" width="16">
+        </a>
+        <a href="#">
+          <img src="img/ic-sort-down.svg" width="16">
+        </a>
+        <ul class="variants">
           <li>
             <img src="img/Amara-Resort-and-Spa.jpg" width="135" alt="Вид на гостиницу Amara Resort">
-            <a href="#">Amara Resort & Spa</a>
+            <a class="variant-name" href="#">Amara Resort & Spa</a>
             <p>Гостиница</p>
             <p>От 4000 Р.</p>
-            <a href="#">Подробнее</a>
-            <a href="#">Забронировать</a>
+            <a class="more" href="#">Подробнее</a>
+            <a class="book-in" href="#">Забронировать</a>
             <ul>
               <li>
                 <img src="img/ic-star.svg" width="20">
@@ -125,11 +125,11 @@
           </li>
           <li>
             <img src="img/Desert-Quail-Inn.jpg" width="135" alt="Вид на мотель Desert Quail Inn">
-            <a href="#">Desert Quail Inn</a>
+            <a class="variant-name" href="#">Desert Quail Inn</a>
             <p>Мотель</p>
             <p>От 3000 Р.</p>
-            <a href="#">Подробнее</a>
-            <a href="#">Забронировать</a>
+            <a class="more" href="#">Подробнее</a>
+            <a class="book-in" href="#">Забронировать</a>
             <ul>
               <li>
                 <img src="img/ic-star.svg" width="20">
@@ -145,11 +145,11 @@
           </li>
           <li>
             <img src="img/Villas-at-Poco-Diablo.jpg" width="135" alt="Вид на апартаменты Villas at Poco Diablo">
-            <a href="#">Villas at Poco Diablo</a>
+            <a class="variant-name" href="#">Villas at Poco Diablo</a>
             <p>Апартаменты</p>
             <p>От 2000 Р.</p>
-            <a href="#">Подробнее</a>
-            <a href="#">Забронировать</a>
+            <a class="more" href="#">Подробнее</a>
+            <a class="book-in" href="#">Забронировать</a>
             <ul>
               <li>
                 <img src="img/ic-star.svg" width="20">
